@@ -15,7 +15,6 @@ body {
 #heading {
     border-style: solid;
     background-color: black;
-    border-radius: 20px 20px;
    
 }
 
@@ -64,7 +63,9 @@ h3 {
 label {
     font-size: 25px;
     padding: 5px;
-    margin-top: 5px;   
+    margin-top: 5px;
+    text-decoration: underline;
+    font-weight: bolder;
 }
 
 input {
@@ -99,10 +100,36 @@ input {
     margin-left: 1rem;
 }
 
-#quiz-container{
+#quiz-container {
     display: none;
 }
 
-#high-score-container{
+#high-score-container {
     display: none;
+}
+
+footer {
+    border-style: solid;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fa-linkedin {
+    font-size: 3.7rem;
+    color: firebrick;
+}
+
+.fa-github-square {
+    font-size: 3.7rem;
+    color: #fff;
 }
