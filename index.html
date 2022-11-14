@@ -25,11 +25,29 @@
       <div class="container">
         <div id="home" class="flex-column flex-center">
             <h3>Lets test your knowledge!</h3>
-            <a href="/game.html" class="btn">Play<i class="fas fa-play"></i></a>
-            <a href="/highscore.html" id="highscore-btn" class="btn">High Scores 
-                <i class="fas fa-crown"></i></a>
+            <label for="username">Enter a Username</label>
+            <input type="text" id="username" name ="UserName" required minlength="4" maxlength="8" placeholder="Enter Username">
+            <input type="submit" value="Submit">
+        </label>
+                <div class="btn">Play<i class="fas fa-play"></i></div>
+                    <div id="highscore-btn" class="btn">High Scores 
+                        <i class="fas fa-crown"></i></div>
         </div>
     </div>
+
+    <div id="quiz-container">
+        <h1>Quiz aPP</h1>
+    </div>
+
+    <div id="high-score-container">
+        <h1>High score</h1>
+    </div>
+
+    <footer>
+        <ul class="footer-icon">
+            <li> <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Visit linkedin. (opens a new tab)" <i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
     
 
 <script src="assets/js/javaScript.js"></script>
