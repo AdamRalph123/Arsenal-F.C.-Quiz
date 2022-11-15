@@ -1,0 +1,30 @@
+body {
+    color: #fff;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: black;
+    font-size: 3rem;
+    min-width: 80rem;
+
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: #fff;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+

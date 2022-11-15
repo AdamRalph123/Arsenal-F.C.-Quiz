@@ -1,4 +1,5 @@
-let header = document.getElementById("heading");
+
+
 
 
 const data = [
