@@ -46,6 +46,10 @@ h3 {
     margin-right: auto;
 }
 
+#home {
+    margin-top: 0;
+}
+
 .flex-column {
     display: flex;
     flex-direction: column;

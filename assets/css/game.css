@@ -1,5 +1,6 @@
 body {
     color: #fff;
+    background-color: black;
 }
 
 .choice-container {
@@ -7,10 +8,9 @@ body {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: black;
+    background: firebrick;
     font-size: 3rem;
     min-width: 80rem;
-
 }
 
 .choice-container:hover {
@@ -28,3 +28,66 @@ body {
     width: 100%;
 }
 
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+/* Heads up display */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid green;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    width: 0%;
+    background: green;
+}
+
+footer {
+    border-style: solid;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fa-linkedin {
+    font-size: 3.7rem;
+    color: firebrick;
+}
+
+.fa-github-square {
+    font-size: 3.7rem;
+    color: #fff;
+}
