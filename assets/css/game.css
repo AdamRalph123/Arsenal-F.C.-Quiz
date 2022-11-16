@@ -3,6 +3,16 @@ body {
     background-color: black;
 }
 
+.game-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;

@@ -104,14 +104,6 @@ input {
     margin-left: 1rem;
 }
 
-#quiz-container {
-    display: none;
-}
-
-#high-score-container {
-    display: none;
-}
-
 footer {
     border-style: solid;
     background-color: black;
