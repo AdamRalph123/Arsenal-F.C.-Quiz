@@ -13,9 +13,18 @@ body {
     padding: 2rem;
 }
 
+#question {
+    font-size: 4.3rem;
+    color: #fff;
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 1rem;
+
+}
+
 .choice-container {
     display: flex;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.9rem;
     width: 100%;
     border-radius: 4px;
     background: firebrick;
@@ -100,6 +109,12 @@ footer {
 .fa-github-square {
     font-size: 3.7rem;
     color: #fff;
+}
+
+.home-btn {
+    width: 15rem;
+    height: 3rem;
+    padding-bottom: 5.5rem;
 }
 
 @media screen and (max-width: 768px) {
