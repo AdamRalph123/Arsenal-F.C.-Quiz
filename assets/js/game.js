@@ -39,7 +39,7 @@ let questions = [{
     },
  
     {
-       question: "What season did Arsenal F.C. go through the season without losing a game ?",
+       question: "Which season did Arsenal F.C. go through the season without losing a game ?",
        choice1: '2003/2004',
        choice2: '2002/2003',
        choice3: '2004/2005',
@@ -66,7 +66,7 @@ let questions = [{
       },
  
       {
-       question: "What year Arsenal F.C. beat Barcelona ?",
+       question: "What year did Arsenal F.C. beat Barcelona in the champions league ?",
        choice1: '2009',
        choice2: '2007',
        choice3: '2011',
