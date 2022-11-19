@@ -1,0 +1,16 @@
+body {
+    color: #fff;
+}
+
+#highScoresList {
+    list-style-type: decimal-leading-zero;
+    margin-bottom: 4rem;
+    text-align: center;
+
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    background-color: black;
+}

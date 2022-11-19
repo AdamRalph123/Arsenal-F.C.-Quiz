@@ -8,19 +8,22 @@
     <title>Document</title>
 </head>
 <body>
+    <header id="heading">
+        <h1>Arsenal F.C. Quiz</h1>
+     </header>
     <div class="container">
         <div id="end" class="flex-center flex-column">
             <h1 id="finalScore">0</h1>
-            <form class="end-form-contanier">
+            <form action="highscores.html" class="end-form-contanier">
                 <h2 id="end-text">Enter your name below to save your score</h2>
-                <input type="text" name="name" id="username" placeholder="Enter your name">
-                <button class="btn" id="saveScoreBtn" type="submit" 
-                onclick="saveHighScore(event)" disabled>Save</button>
+                <input type="text" name="name" id="username" placeholder="Enter your name" required>
             </form>
+            <button class="btn" id="saveScoreBtn" type="submit" 
+                onclick="saveHighScore(event)">Save</button>
             <a href="/game.html" class="btn">Play Again</a>
-            <a href="/" class="btn">Go Home</a>
+            <a href="/index.html" class="btn">Go Home</a>
         </div>
     </div>
-    
+    <script src="/assets/js/end.js"></script>
 </body>
 </html>
