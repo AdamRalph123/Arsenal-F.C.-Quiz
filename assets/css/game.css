@@ -124,3 +124,11 @@ footer {
     }
     
 }
+
+@media screen and (max-width: 500px) {
+    .choice-container {
+        min-width: 20rem;
+        margin-right: 50px;
+    }
+    
+}
