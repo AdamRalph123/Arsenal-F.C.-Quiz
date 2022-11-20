@@ -3,6 +3,10 @@ body {
     background-color: black;
 }
 
+h1 {
+    font-size: 5.2rem;
+}
+
 .game-container {
     width: 100vw;
     display: flex;
@@ -14,11 +18,10 @@ body {
 }
 
 #question {
-    font-size: 4.3rem;
+    font-size: 3.8rem;
     color: #fff;
     text-align: center;
     height: 20vh;
-    margin-bottom: 1rem;
 
 }
 
@@ -30,8 +33,7 @@ body {
     background: firebrick;
     font-size: 3rem;
     min-width: 80rem;
-    height: 5.8rem;
-   
+    height: 50px;
 }
 
 .choice-container:hover {
@@ -120,17 +122,26 @@ footer {
 }
 
 
+
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
     }
-    
 }
 
 @media screen and (max-width: 500px) {
     .choice-container {
         min-width: 20rem;
         margin-right: 50px;
+        margin-top: 1.5rem;
     }
-    
+
+    #question {
+        font: size 2rem;
+    }
+
+    #click {
+        padding: 2px;
+        margin-bottom: 2px;
+    }
 }

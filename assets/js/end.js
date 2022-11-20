@@ -17,16 +17,20 @@ saveHighScore = e => {
     const score = {
             score: mostRecentScore,
             name: username.value
-        }
+        };
+        const errorE1 = document.getElementById("error");
+        if(username.value.trim() == "" || username.value.length < 3){
 
+            errorE1.innerText = "PLEASE ENTER MORE THAN 3 LETTERS";
+        } else{
+        errorE1.innerText = "";
         highScores.push(score);
 
-        highScores.sort((a,b) => {
-         return b.score - a.score
-        })
+        highScores.sort((a,b) => b.score - a.score);
         
-            highScores.splice(5)
+        highScores.splice(5)
           
             localStorage.setItem ('highScores', JSON.stringify(highScores))
             window.location.assign('/')
         }
+};

@@ -14,15 +14,18 @@ body {
 
 #heading {
     background-color: black;
-   
+}
+
+#click {
+    color: #fff;
+    font-size: 2.5rem;
 }
 
 h1 {
-    font-size: 6.8rem;
+    font-size: 6.4rem;
     color: #fff;
     text-align: center;
     font-stretch: expanded;
-    cursor: pointer;
 }
 
 h3 {
@@ -33,7 +36,7 @@ h3 {
     text-align: center;
 }
 
-    .container {
+.container {
     width: 100vw;
     height: 100vh;
     align-items: center;
@@ -66,7 +69,7 @@ h3 {
 
 .btn {
     font-size: 2.6rem;
-    padding: 2rem 0;
+    padding: 1.3rem 0;
     width: 30rem;
     text-align: center;
     margin-bottom: 1rem;
@@ -105,12 +108,12 @@ footer {
 }
 
 .fa-linkedin {
-    font-size: 3.7rem;
+    font-size: 4rem;
     color: firebrick;
 }
 
 .fa-github-square {
-    font-size: 3.7rem;
+    font-size: 4rem;
     color: #fff;
 }
 
@@ -129,6 +132,7 @@ input {
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
+   
 }
 
 input::placeholder {
@@ -142,11 +146,16 @@ input::placeholder {
 }
 
 #end-text {
-    font-size: 3.2rem;
+    font-size: 2.3rem;
     text-align: center;
     color: #fff;
 }
 
 #saveScoreBtn {
     border: none;
+}
+
+#error {
+    font-size: 1.8rem;
+    align-items: center;
 }

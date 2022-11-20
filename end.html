@@ -17,9 +17,10 @@
             <form action="highscores.html" class="end-form-contanier">
                 <h2 id="end-text">Enter your name below to save your score</h2>
                 <input type="text" name="name" id="username" placeholder="Enter your name" required>
-            </form>
+                <p id="error"></p>
             <button class="btn" id="saveScoreBtn" type="submit" 
                 onclick="saveHighScore(event)">Save</button>
+            </form>
             <a href="/game.html" class="btn">Play Again</a>
             <a href="/index.html" class="btn">Go Home</a>
         </div>
