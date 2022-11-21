@@ -159,3 +159,10 @@ input::placeholder {
     font-size: 1.8rem;
     align-items: center;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 5rem;
+    }
+}

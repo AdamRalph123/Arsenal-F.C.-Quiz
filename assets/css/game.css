@@ -123,25 +123,47 @@ footer {
 
 
 
-@media screen and (max-width: 768px) {
-    .choice-container {
-        min-width: 40rem;
-    }
-}
 
-@media screen and (max-width: 500px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+
     .choice-container {
-        min-width: 20rem;
-        margin-right: 50px;
-        margin-top: 1.5rem;
+        height: 50px;
     }
 
     #question {
-        font: size 2rem;
+        font-size: 2.5rem;
+        width: 100vw;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+
+    #questions {
+        font-size: 3rem;
+        height: 10vh;
     }
 
     #click {
-        padding: 2px;
-        margin-bottom: 2px;
+        font-size: 2rem;
     }
+
+    #progressBar {
+        width: 10rem;
+    }
+
+    .hud-prefix {
+        width: 10rem;
+    }
+
+
 }
+
