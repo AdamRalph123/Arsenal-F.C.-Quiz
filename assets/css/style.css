@@ -11,14 +11,9 @@ body {
     font-size: 62.5%;
     font-family: 'oswald', sans-serif;
 }
-
+/* Header color and styling */
 #heading {
     background-color: black;
-}
-
-#click {
-    color: #fff;
-    font-size: 2.5rem;
 }
 
 h1 {
@@ -36,6 +31,7 @@ h3 {
     text-align: center;
 }
 
+/* Styling the play button and highscores button */
 .container {
     width: 100vw;
     height: 100vh;
@@ -87,11 +83,13 @@ h3 {
 
 }
 
+/* Styling the icons inside the buttons */
 .fa-crown, .fa-play, .fa-home {
     font-size: 2.5rem;
     margin-left: 1rem;
 }
 
+/* Footer section and styling */
 footer {
     background-color: black;
     position: relative;
@@ -117,6 +115,7 @@ footer {
     color: #fff;
 }
 
+/* End form container when the user finishes the quiz */
 .end-form-container {
     width: 100%;
     display: flex;
@@ -159,6 +158,8 @@ input::placeholder {
     font-size: 1.8rem;
     align-items: center;
 }
+
+/* Media Queries */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 650px) {

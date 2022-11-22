@@ -7,6 +7,13 @@ h1 {
     font-size: 5.2rem;
 }
 
+/* Home button */
+#click {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* Game html styling */
 .game-container {
     width: 100vw;
     display: flex;
@@ -50,11 +57,12 @@ h1 {
     padding: 2rem;
     width: 100%;
 }
-
+/*Color for correct answers */
 .correct {
     background: green;
 }
 
+/* Color for incorrect answers */
 .incorrect {
     background-color: red;
 }
@@ -74,6 +82,7 @@ h1 {
     text-align: center;
 }
 
+/* Progress bar styling */
 #progressBar {
     width: 20rem;
     height: 3rem;
@@ -89,38 +98,6 @@ h1 {
     background: green;
 }
 
-footer {
-    border-style: solid;
-    background-color: black;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
-.footer-icons {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.fa-linkedin {
-    font-size: 3.7rem;
-    color: firebrick;
-}
-
-.fa-github-square {
-    font-size: 3.7rem;
-    color: #fff;
-}
-
-.home-btn {
-    width: 15rem;
-    height: 3rem;
-    padding-bottom: 5.5rem;
-}
-
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
@@ -128,6 +105,7 @@ footer {
     
 }
 
+/* Extra small devices (phones, 500px and down) */
 @media screen and (max-width: 500px) {
     .choice-container {
         min-width: 20rem;

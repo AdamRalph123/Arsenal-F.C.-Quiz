@@ -2,6 +2,7 @@ body {
     color: #fff;
 }
 
+/* Highscore and leaderboard styling */
 #highScoresList {
     list-style-type: decimal-leading-zero;
     margin-bottom: 4rem;
