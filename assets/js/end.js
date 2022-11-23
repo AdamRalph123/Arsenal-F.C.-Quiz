@@ -10,7 +10,8 @@ finalScore.innerText = mostRecentScore
 username.addEventListener('keyup', () => {
     saveScoreBtn = username.value;
 })
- 
+
+/* Save button when finished quiz */
 saveHighScore = e => {
     e.preventDefault()
         

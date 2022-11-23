@@ -10,7 +10,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-
+/* Questions and answers */
 let questions = [{
      question: "When was Arsenal F.C. founded ?",
      choice1: '1886',
@@ -102,6 +102,7 @@ let questions = [{
       },
 ];
 
+/* Score points and max questions */
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
 
@@ -137,6 +138,7 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 };
 
+/* Choices for correct and incorrect answers */
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
