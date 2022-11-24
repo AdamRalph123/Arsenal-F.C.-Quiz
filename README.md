@@ -2,7 +2,7 @@
 
 # Arsenal F.C. Quiz
 
-[Here is a link to the live site - Arsenal F.C. Quiz](https://github.com/AdamRalph123/Arsenal-F.C.-Quiz)
+[Here is a link to the live site - Arsenal F.C. Quiz](https://adamralph123.github.io/Arsenal-F.C.-Quiz/)
 
 Welcome to my Arsenal F.C. Quiz! The quiz has a home button, play button and highscores button so the user can enter their name and it will appear in the leaderboard.
 
